@@ -1,0 +1,146 @@
+/* styles.css - Thème MG EXPERTISE */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #003366;
+    /* bleu foncé MG EXPERTISE */
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0 0 5px 0;
+    font-weight: 700;
+}
+
+header p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+a {
+    color: #ff6600;
+    /* orange MG EXPERTISE */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav button.tab {
+    background-color: #006699;
+    /* bleu moyen */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 8px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button.tab.active,
+nav button.tab:hover {
+    background-color: #ff6600;
+    /* orange MG EXPERTISE */
+}
+
+.view {
+    display: none;
+}
+
+.active-view {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    font-weight: 700;
+}
+
+tr.retard {
+    background-color: #f8d7da;
+    /* rouge clair */
+}
+
+tr.valide {
+    background-color: #d4edda;
+    /* vert clair */
+}
+
+textarea {
+    width: 100%;
+    min-height: 40px;
+    font-family: inherit;
+    font-size: 0.9em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    margin: 0 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+
+/* FullCalendar overrides for matching style */
+
+.fc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fc-daygrid-event {
+    border-radius: 4px !important;
+    font-weight: 600;
+    color: white !important;
+}
+
+.fc-toolbar-title {
+    font-weight: 700 !important;
+    font-size: 1.5em !important;
+    color: #003366 !important;
+}
